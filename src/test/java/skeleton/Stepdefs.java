@@ -27,7 +27,7 @@ public class Stepdefs {
 	static int numberOfProducts; 
 	@Given("Alex is on the login page")
 	public void alex_is_on_the_login_page() {
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\PDC3B-Training.PDC3B\\eclipse\\siddhii-workspace\\CucumberProject\\Resources\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\New folder\\SeleniumDrivers\\geckodriver-v0.26.0-win64 (1)\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
